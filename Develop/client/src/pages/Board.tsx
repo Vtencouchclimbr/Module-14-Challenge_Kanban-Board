@@ -9,6 +9,8 @@ import { ApiMessage } from '../interfaces/ApiMessage';
 
 import auth from '../utils/auth';
 
+import '../index.css';
+
 const boardStates = ['Todo', 'In Progress', 'Done'];
 
 const Board = () => {

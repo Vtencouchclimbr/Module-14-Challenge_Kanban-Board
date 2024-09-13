@@ -4,6 +4,8 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import { retrieveTicket, updateTicket } from '../api/ticketAPI';
 import { TicketData } from '../interfaces/TicketData';
 
+import '../index.css';
+
 const EditTicket = () => {
   const [ticket, setTicket] = useState<TicketData | undefined>();
 

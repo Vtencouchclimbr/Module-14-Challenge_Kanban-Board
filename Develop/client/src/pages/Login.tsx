@@ -3,6 +3,8 @@ import { useState, FormEvent, ChangeEvent } from "react";
 import Auth from '../utils/auth';
 import { login } from "../api/authAPI";
 
+import '../index.css';
+
 const Login = () => {
   const [loginData, setLoginData] = useState({
     username: '',
