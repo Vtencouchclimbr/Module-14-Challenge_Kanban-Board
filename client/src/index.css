@@ -24,7 +24,7 @@ input:-moz-placeholder {
 
 a {
   font-weight: 500;
-  color: #000000;
+  color: #b96f1a;
   text-decoration: inherit;
 }
 a:hover {
@@ -32,7 +32,7 @@ a:hover {
 }
 
 body {
-  background: #ECF0F1;
+  background: #1d8ba7;
   background-size: cover;
   background-repeat: no-repeat no-repeat;
   background-position: center center;
@@ -105,7 +105,7 @@ tbody tr:nth-child(odd) {
 }
 
 .nav-title a {
-  color: #b864c4;
+  color: white;
 }
 
 .nav-item {
@@ -183,7 +183,7 @@ tbody tr:nth-child(odd) {
 .form {
   width: 60%;
   height: 80%;
-  background-color: #b864c4;
+  background-color: rgb(197, 166, 126);
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -192,7 +192,7 @@ tbody tr:nth-child(odd) {
 }
 
 .form > h1, .form > label {
-  color: yellow;
+  color: #b96f1a;
 }
 
 .form > input {
