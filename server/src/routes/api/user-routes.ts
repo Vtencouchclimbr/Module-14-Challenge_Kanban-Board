@@ -7,6 +7,7 @@ import {
   deleteUser,
 } from '../../controllers/user-controller.js';
 
+// initialize router instance
 const router = express.Router();
 
 // GET /users - Get all users
